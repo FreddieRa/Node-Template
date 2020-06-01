@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Node Template</title>
+        <style>
+</style>
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+        
+        <style>
+.task-list-item { list-style-type: none; } .task-list-item-checkbox { margin-left: -20px; vertical-align: middle; }
+</style>
+        <style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        
+        
+        
+    </head>
+    <body class="vscode-light">
+        <h1 id="node-template">Node Template</h1>
+<p>This is a template for Node.js applications.</p>
+<h2 id="how-to-use">How to use</h2>
+<ol>
+<li>Download the code and copy to new repo</li>
+<li>Choose the Plain or Rooms version by deleting the irrelevant files.
+<ol>
+<li>If you want the rooms version, rename both the client and server files to remove the <code>Room</code> suffix.</li>
+</ol>
+</li>
+<li>Add a link to the repo at <a href="https://dashboard.heroku.com/">https://dashboard.heroku.com/</a></li>
+<li>Create a specific branch for Heroku to build from</li>
+<li>Test locally with <code>heroku local web</code></li>
+<li>App is then found at <code>http://localhost:5000/</code></li>
+</ol>
+<h2 id="structure">Structure</h2>
+<ul>
+<li>Node.js Server: <code>server.js</code> | <code>serverRoom.js</code></li>
+<li>Client Javascript: <code>js/client.js</code> | <code>js/clientRoom.js</code></li>
+<li>Homepage: <code>index.html</code></li>
+<li>Stylesheet: <code>css./StyleSheet.css</code></li>
+</ul>
+<h2 id="plain">Plain</h2>
+<p>This version is designed to have a single user interacting with the server.</p>
+<h2 id="rooms">Rooms</h2>
+<p>This version is designed to have multiple users joining a room, and therefore a number of independent instances.</p>
+
+    </body>
+    </html>
